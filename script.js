@@ -4,6 +4,7 @@ let email = prompt('inserisci la tua email');
 const outputHTML = document.querySelector('.emails');
 let allowed = ['pinco@gmail.com', 'max@gmail.com', 'marco@gmail.com'];
 let result = false;
+let x = 0;
 
 for (x = 0; x < allowed.length; x++){
     if (email === allowed[x]){
